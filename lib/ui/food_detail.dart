@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grocerie_app/data/model/food.dart';
+import '/data/model/food.dart';
 
 class FoodDetail extends StatelessWidget {
   final Recipe recipes;

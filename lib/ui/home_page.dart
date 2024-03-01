@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:grocerie_app/bloc/food_bloc.dart';
-import 'package:grocerie_app/bloc/food_event.dart';
-import 'package:grocerie_app/bloc/food_state.dart';
-import 'package:grocerie_app/bloc/search/search_bloc.dart';
-import 'package:grocerie_app/bloc/search/search_event.dart';
-import 'package:grocerie_app/bloc/search/search_state.dart';
-import 'package:grocerie_app/data/repositories/food_repository.dart';
-import 'package:grocerie_app/elements/error.dart';
-import 'package:grocerie_app/elements/list.dart';
-import 'package:grocerie_app/elements/loading.dart';
-import 'package:grocerie_app/ui/food_detail.dart';
+import 'package:grocery_store/bloc/food_block.dart';
+import '/bloc/food_event.dart';
+import '/bloc/food_state.dart';
+import '/bloc/search/search_bloc.dart';
+import '/bloc/search/search_event.dart';
+import '/bloc/search/search_state.dart';
+import '/data/repositories/food_repository.dart';
+import '/elements/error.dart';
+import '/elements/list.dart';
+import '/elements/loading.dart';
+import '/ui/food_detail.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
