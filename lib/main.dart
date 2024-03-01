@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:grocery_store/bloc/food_block.dart';
 import 'package:grocery_store/bloc/search/search_bloc.dart';
 import 'package:grocery_store/data/repositories/search_repository.dart';
 import 'package:grocery_store/ui/home_page.dart';
