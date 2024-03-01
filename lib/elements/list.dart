@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:grocerie_app/data/model/food.dart';
-import 'package:grocerie_app/ui/food_detail.dart';
+import 'package:grocery_store/data/model/food.dart';
+import 'package:grocery_store/ui/food_detail.dart';
 
 Widget buildHintsList(List<Recipe> recipes) {
   //SearchFoodBloc searchBloc;

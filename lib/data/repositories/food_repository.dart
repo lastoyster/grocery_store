@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:grocerie_app/data/model/food.dart';
+import 'package:grocery_store/data/model/food.dart';
 import 'package:http/http.dart' as http;
 
 abstract class FoodRepository {

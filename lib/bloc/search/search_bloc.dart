@@ -4,7 +4,6 @@ import 'package:bloc/bloc.dart';
 import '/bloc/search/search_state.dart';
 import '/data/model/food.dart';
 import '/data/repositories/search_repository.dart';
-
 import 'search_event.dart';
 
 class SearchBloc extends Bloc<SearchEvent, SearchState> {
